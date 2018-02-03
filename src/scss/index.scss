@@ -1,0 +1,13 @@
+body {
+  background: #666;
+}
+
+.test {
+  & .foo {
+    color: #000;
+    background: #fff;
+    box-shadow: 0px 0px 4px 0px #ffffff;
+    border-radius: 50px 20px;
+    display: flex;
+  }
+}
